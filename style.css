@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.dropdown{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+label{
+    margin-right: 10px;
+    font-size: 25px;
+}
+
+select{
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 15px;
+}
+
+.para{
+    margin-top: 30px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid rgba(24, 24, 26, 0.948);
+    border-radius: 15px;
+}
+
+p{
+    font-size: 20px;
+    padding: 10px 20px;
+}
